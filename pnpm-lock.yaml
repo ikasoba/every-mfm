@@ -1,0 +1,33 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  mfm-js:
+    specifier: ^0.24.0
+    version: 0.24.0
+
+devDependencies:
+  typescript:
+    specifier: ^5.3.3
+    version: 5.3.3
+
+packages:
+
+  /@twemoji/parser@15.0.0:
+    resolution: {integrity: sha512-lh9515BNsvKSNvyUqbj5yFu83iIDQ77SwVcsN/SnEGawczhsKU6qWuogewN1GweTi5Imo5ToQ9s+nNTf97IXvg==}
+    dev: false
+
+  /mfm-js@0.24.0:
+    resolution: {integrity: sha512-6m8N0ElH9/4CA1izhVqmxTfLj5Z9RspdqM/lMew4xU/UTgm4Pf//VpDunpasxbRFjeJSVW+zoVwL4ZPfPtfiQg==}
+    dependencies:
+      '@twemoji/parser': 15.0.0
+    dev: false
+
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
