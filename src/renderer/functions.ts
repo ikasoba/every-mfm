@@ -171,6 +171,30 @@ export function createMisskeyFunctions<C, N extends C>(
         );
       }
 
+      case "fg": {
+        return h(
+          "span",
+          {
+            style: {
+              color: props.params.color,
+            },
+          },
+          ...props.children
+        );
+      }
+
+      case "bg": {
+        return h(
+          "span",
+          {
+            style: {
+              backgroundColor: props.params.color,
+            },
+          },
+          ...props.children
+        );
+      }
+
       default: {
         return h("span", {}, ...props.children);
       }
