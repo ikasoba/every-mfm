@@ -1,9 +1,16 @@
 {
   "type": "module",
+  "name": "@ikasoba000/any-mfm",
+  "description": "mfm renderer for any framework",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "prepare": "tsc --build"
+  },
   "devDependencies": {
     "typescript": "^5.3.3"
   },
-  "dependencies": {
+  "peerDependencies": {
     "mfm-js": "^0.24.0"
   }
 }
